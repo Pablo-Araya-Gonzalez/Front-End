@@ -1,0 +1,35 @@
+.survey-form {
+    text-align: center;
+  }
+  
+  .question {
+    margin-bottom: 1.5rem;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 0.5rem;
+  }
+  
+  .option-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5a67d8; /* Color base */
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .option-button:hover {
+    background-color: #4c51bf;
+  }
+  
+  /* Cambia el color del botón seleccionado */
+  .option-button.selected {
+    background-color: #48bb78; /* Verde para botón seleccionado */
+  }
+  
